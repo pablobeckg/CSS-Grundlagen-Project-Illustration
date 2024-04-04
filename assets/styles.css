@@ -1,0 +1,225 @@
+/* General code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url(./fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: merriweatherbold;
+    src: url(./fonts/Merriweather-Bold.ttf);
+}
+
+:root {
+    --main-font: merriweather;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--main-font);
+}
+
+/* nav */
+
+nav {
+    height: 14vh;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.8rem;
+    margin: 0.64rem 1.42rem ;
+}
+
+nav ul li {
+    font-size: 2.3rem;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: lato;
+}
+
+/* main */
+
+section {
+    margin-top: 8.5vh;
+    display: flex;
+    height: 77.5vh;
+}
+
+section > img {
+    height: 100%;
+}
+
+.hero {
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.content {
+    width: 39%;
+}
+
+.left {
+    margin-right: 17.3%;
+}
+
+h1 {
+    font-size: 4.8rem;
+    margin-bottom: 1.93rem;
+}
+
+p, button {
+    font-size: 1.92rem;
+    margin: 10px;
+}
+
+.btnleft {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btnright {
+    background-color: transparent;
+    border: 2px solid lightgray;
+}
+
+p {
+    line-height: 3.5rem;
+}
+
+button {
+    border-radius: 10px;
+    height: 6rem;
+    width: 14rem;
+}
+
+.right {
+    margin-right: 12%;
+}
+
+.applications {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.center {
+    width: 58%;
+    text-align: center;
+}
+
+.img-container {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-container img {
+    height: 55vh;
+}
+
+
+.cheese {
+    height: auto;
+}
+
+.cheese img {
+    height: 40vh;
+    margin: 2%;
+}
+
+.small {
+    width: 40%;
+}
+
+.membership {
+    height: 571px;
+    width: 360px;
+    background-color: rgba(85, 172, 238, 0.1);
+
+    text-align: center;
+    margin: 8.5vh 0;
+}
+
+h1, h4, h3, h2 {
+    font-family: merriweatherbold;
+}
+
+.membership h4 {
+    color: gray;
+    margin: 12px;
+}
+
+h3 {
+    font-size: 2.4rem;
+    margin: 63.7px;
+}
+
+h2 {
+    font-size: 8rem;
+    margin: 44px;
+}
+
+.membership > p {
+    font-size: 1.6rem;
+    line-height: 0.8rem;
+}
+
+.membership button {
+    background-color: #55ACEE;
+    border: none;
+    width: 25rem;
+    color: white;
+    margin: 12px;
+}
+
+footer {
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.92rem;
+    font: gray;
+}
+
+.icons {
+    margin: 12px;
+}
+
+span {
+    font-size: 1.92rem;
+    margin: 0px 7px;
+}
+
+.icons span:nth-child(2) {
+    color: #FCAF45; /* Style for the second span */
+}
+
+.icons span:nth-child(3) {
+    color: #55ACEE; /* Style for the third span */
+}
+
+.icons span:nth-child(4) {
+    color: #C4302B;
+}
